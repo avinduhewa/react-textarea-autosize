@@ -16,6 +16,10 @@
   "license": "MIT",
   "main": "dist/react-textarea-autosize.cjs.js",
   "module": "dist/react-textarea-autosize.esm.js",
+  "browser": {
+    "./dist/react-textarea-autosize.cjs.js": "./dist/react-textarea-autosize.browser.cjs.js",
+    "./dist/react-textarea-autosize.esm.js": "./dist/react-textarea-autosize.browser.esm.js"
+  },
   "sideEffects": false,
   "files": [
     "dist"
